@@ -1,3 +1,8 @@
+/**
+ * Returns a list of students.
+ *
+ * @return {Array} A list of students
+ */
 export default function getListStudents() {
   const res = [
     { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
@@ -5,5 +10,5 @@ export default function getListStudents() {
     { id: 5, firstName: 'Serena', location: 'San Francisco' }
   ];
 
-  return res
+  return res;
 };
